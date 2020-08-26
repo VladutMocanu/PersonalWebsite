@@ -58,7 +58,7 @@ img {
     background-image: url(images/hero-bg.svg);
     background-repeat: no-repeat;
     background-position: right center;
-    background-size:  800px;
+    background-size:  900px;
 }
 
 /* Home Section - Header */
@@ -268,7 +268,7 @@ nav a {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    overflow: visible;
+    overflow: none;
     
 }
 
@@ -467,8 +467,8 @@ footer {
 }
 
 .modal-content {
-    width: 500px;
-    height:300px;
+    width: 600px;
+    height:400px;
     background-color:white;
     border-radius: 4px;
     text-align: center;
@@ -492,6 +492,10 @@ input {
 }
 
 .button {
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 40px;
     text-decoration: none;
     text-transform: uppercase;
     background-color:  #fabc41;
